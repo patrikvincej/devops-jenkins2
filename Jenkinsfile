@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('list files') { 
             steps {
-                ls . 
-            }
-        }
-    }
-}
+                ls 
+                  }
+                            }
+           }
+       }
 
